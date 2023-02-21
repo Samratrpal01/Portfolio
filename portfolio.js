@@ -1,313 +1,47 @@
-import emoji from "react-easy-emoji";
+<h1 align="center">Hi 👋, I'm Rahul Pal</h1>
+<h3 align="center">A passionate Software developer from India</h3>
+<img align="right" alt="coding" width="400" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjwC-JaLeSezL_YLCt9_qEcYlVge-Tmyf-Yg&usqp=CAU"> 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=samratrpal01&label=Profile%20views&color=0e75b6&style=flat" alt="samratrpal01" /> </p>
 
-export const greetings = {
-    name: "Rahul Pal",
-    title: "Hi all, I'm Rahul",
-    description: "I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
-    resumeLink: "https://drive.google.com/file/d/1YzaUmvWV2MUAE_B1NKHGCakE2qiWuutk/view?usp=sharing",
-};
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=samratrpal01" alt="samratrpal01" /></a> </p>
 
-export const openSource = {
-    githubUserName: "Samratrpal01",
-};
+- 🔭 I’m currently working on **Sentiment Analysis**
 
-export const contact = {};
+- 🌱 I’m currently learning **Spring Boot**
 
-export const socialLinks = {
-    url: "https://samratrpal01.netlify.app/",
-    linkedin: "https://www.linkedin.com/in/Samratrpal01/",
-    github: "https://github.com/Samratrpal01",
-    instagram: "https://www.instagram.com/samrat_rpal01",
-    facebook: "https://www.facebook.com/rahulp.71",
-    twitter: "https://twitter.com/Samratrahulpal1",
-};
+- 👯 I’m looking to collaborate on [Join2Code](http://join2code.lovestoblog.com/home_page.php?i=1)
 
-export const skillsSection = {
-    title: "What I do",
-    subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
-    data: [{
-            title: "Full Stack Development",
-            lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
-            skills: [
-                emoji(
-                    "⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
-                ),
-                emoji("⚡ Building responsive static websites using Next.js"),
-                emoji(
-                    "⚡ Building RESTful APIs in Django & Django REST Framework"
-                ),
-            ],
-            softwareSkills: [{
-                    skillName: "HTML-5",
-                    fontAwesomeClassname: "vscode-icons:file-type-html",
-                },
-                {
-                    skillName: "CSS-3",
-                    fontAwesomeClassname: "vscode-icons:file-type-css",
-                },
-                {
-                    skillName: "JavaScript",
-                    fontAwesomeClassname: "logos:javascript",
-                },
-                {
-                    skillName: "Reactjs",
-                    fontAwesomeClassname: "vscode-icons:file-type-reactjs",
-                },
-                {
-                    skillName: "Nextjs",
-                    fontAwesomeClassname: "vscode-icons:file-type-light-next",
-                },
-                {
-                    skillName: "Python",
-                    fontAwesomeClassname: "logos:python",
-                },
-                {
-                    skillName: "Django",
-                    fontAwesomeClassname: "vscode-icons:file-type-django",
-                },
+- 👨‍💻 All of my projects are available at [https://samratrpal01.netlify.app/](https://samratrpal01.netlify.app/)
 
-                {
-                    skillName: "Redux",
-                    fontAwesomeClassname: "logos:redux",
-                },
-                {
-                    skillName: "NPM",
-                    fontAwesomeClassname: "logos:npm-icon",
-                },
-                {
-                    skillName: "Yarn",
-                    fontAwesomeClassname: "logos:yarn",
-                },
-            ],
-        },
-        {
-            title: "Cloud Infra-Architecture",
-            lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
-            skills: [
-                emoji("⚡ Experience of working on multiple cloud platforms"),
-                emoji(
-                    "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
-                ),
-                emoji(
-                    "⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
-                ),
-            ],
-            softwareSkills: [
-                // ? Check README To get icon details
-                {
-                    skillName: "AWS",
-                    fontAwesomeClassname: "logos:aws",
-                },
-                {
-                    skillName: "Azure",
-                    fontAwesomeClassname: "logos:microsoft-azure",
-                },
-                {
-                    skillName: "Heroku",
-                    fontAwesomeClassname: "logos:heroku-icon",
-                },
-                {
-                    skillName: "PostgreSQL",
-                    fontAwesomeClassname: "logos:postgresql",
-                },
-                {
-                    skillName: "Github",
-                    fontAwesomeClassname: "akar-icons:github-fill",
-                },
-                {
-                    skillName: "Docker",
-                    fontAwesomeClassname: "logos:docker-icon",
-                },
-                {
-                    skillName: "Github Actions",
-                    fontAwesomeClassname: "logos:github-actions",
-                },
-                {
-                    skillName: "Cloudinary",
-                    fontAwesomeClassname: "logos:cloudinary",
-                },
-                {
-                    skillName: "Nginx",
-                    fontAwesomeClassname: "logos:nginx",
-                },
-                {
-                    skillName: "Sentry",
-                    fontAwesomeClassname: "logos:sentry-icon",
-                },
-            ],
-        },
-        {
-            title: "Blockchain",
-            lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-            skills: [
-                emoji(
-                    "⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-                ),
-                emoji(
-                    "⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-                ),
-                emoji(
-                    "⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-                ),
-                emoji(
-                    "⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-                ),
-                emoji(
-                    "⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-                ),
-            ],
-            softwareSkills: [{
-                    skillName: "Ethereum",
-                    fontAwesomeClassname: "logos:ethereum",
-                },
-                {
-                    skillName: "Solidity",
-                    fontAwesomeClassname: "logos:solidity",
-                },
-                {
-                    skillName: "Web3js",
-                    fontAwesomeClassname: "logos:web3js",
-                },
-                {
-                    skillName: "Metamask",
-                    fontAwesomeClassname: "logos:metamask-icon",
-                },
-                {
-                    skillName: "Ganache",
-                    fontAwesomeClassname: "logos:ganache-icon",
-                },
-            ],
-        },
-    ],
-};
+- 📝 I regularly write articles on [https://twitter.com/Samratrahulpal1](https://twitter.com/Samratrahulpal1)
 
-export const SkillBars = [{
-        Stack: "Frontend/Design", //Insert stack or technology you have experience in
-        progressPercentage: "75", //Insert relative proficiency in percentage
-    },
-    {
-        Stack: "Backend",
-        progressPercentage: "70",
-    },
-    {
-        Stack: "Programming",
-        progressPercentage: "90",
-    },
-    {
-        Stack: "Competative Programming",
-        progressPercentage: "90",
-    },
+- 💬 Ask me about **Data Structure and Algorithm / Competitive Programming**
 
-];
+- 📫 How to reach me **Samratrpal01@gmail.com**
 
-export const educationInfo = [{
-    schoolName: "Raj Kumar Goel Institute Of Technology",
-    subHeader: "Bachelor Of Technology in Computer Science",
-    duration: "Auguest 2019 - May 2023",
-    desc: "Participated in the research of Crop and Fertilizer recommendation using ML , published 1 paper.",
-    grade: "Grade A",
-    descBullets: [
-        "Won many Intra College Competitive Coding Competitions",
-        "Competative Leads in Binary Club",
-    ],
-}, {
-    schoolName: "Varanasi Public School",
-    subHeader: "XIIth (CBSE)",
-    duration: "April 2018 - April 2019",
-    grade: "77.2 %",
-    descBullets: [
-        "Won Tech Savy Price.",
-        "Top Batch Student Of in Computer Class"
-    ],
-}];
+- 📄 Know about my experiences [https://drive.google.com/file/d/1YzaUmvWV2MUAE_B1NKHGCakE2qiWuutk/view](https://drive.google.com/file/d/1YzaUmvWV2MUAE_B1NKHGCakE2qiWuutk/view)
 
-export const experience = [{
-        role: "Software Developer Intern",
-        company: "Nagaroo",
-        companylogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG__AnJ93pWYwILWbYQgzbSeNBVfcxyQSso2hRQIs&s",
-        date: "Mar 2023 – Current",
-        desc: "I worked as Software Developer Intern, Training on Java Full Stack Developer",
-    },
-    {
-        role: "API Engineer",
-        company: "Duseca Software",
-        companylogo: "/img/icons/common/dusecaSoftware.jpg",
-        date: "Jan 2022 – Mar 2022",
-        desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions.",
-        // descBullets: [
-        // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
-        // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        // ],
-    },
-    {
-        role: "Full Stack Developer",
-        company: "Bleed-AI",
-        companylogo: "/img/icons/common/bleedAI.jpg",
-        date: "Sept 2021 - Oct 2021",
-        desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets ",
-    },
-    {
-        role: "Backend Developer",
-        company: "Wapidu",
-        companylogo: "/img/icons/common/wapidu.jpg",
-        date: "Sept 2021",
-        desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.",
-    },
-];
+- ⚡ Fun fact **I am fan of Robert Downey Jr.(Iron Man)**
 
-export const projects = [{
-        name: "developer-portfolio",
-        desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-        github: "https://github.com/Samratrpal01/Portfolio",
-        link: "https://samratrpal01.netlify.app/",
-    },
-    {
-        name: "Join2Code",
-        desc: "Online course Providing Site, Provide Video Lecture and full Learing Plateform to Student to Learn from their own pace.",
-        github: "https://github.com/Samratrpal01/Join2Code",
-        link: "http://join2code.lovestoblog.com/home_page.php",
-    },
-    {
-        name: "To-do List",
-        desc: "Made to Manage work task,A sleek webapp created using HTML,CSS and Javascript where user can create or delete tickets according to their priority.",
-        github: "https://github.com/Samratrpal01/TodoList_Week-4",
-        link: "https://kjd91h.csb.app/",
-    },
-    {
-        name: "Emoji InterPreter",
-        desc: "Project Made to Analyis the Meaning of Emoji",
-        github: "https://github.com/Samratrpal01/Emoji_Interpreter",
-        link: "codesandbox.io/s/github/Samratrpal01/Emoji_Interpreter",
-    },
-];
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://codepen.io/samratrpal01" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="samratrpal01" height="30" width="40" /></a>
+<a href="https://twitter.com/samratrahulpal1" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="samratrahulpal1" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/samratrpal01" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="samratrpal01" height="30" width="40" /></a>
+<a href="https://instagram.com/samrat_rpal01" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="samrat_rpal01" height="30" width="40" /></a>
+<a href="https://www.codechef.com/users/tony_stark_rp" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="tony_stark_rp" height="30" width="40" /></a>
+<a href="https://codeforces.com/profile/samratrpal01" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codeforces.svg" alt="samratrpal01" height="30" width="40" /></a>
+<a href="https://auth.geeksforgeeks.org/user/https://auth.geeksforgeeks.org/user/_tony_stark_01/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/geeks-for-geeks.svg" alt="https://auth.geeksforgeeks.org/user/_tony_stark_01/" height="30" width="40" /></a>
+</p>
 
-export const feedbacks = [{
-        name: "Ayush Singh",
-        feedback: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-    },
-    {
-        name: "Ram Pal",
-        feedback: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-    },
-];
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://spring.io/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/springio/springio-icon.svg" alt="spring" width="40" height="40"/> </a> </p>
 
-// option to hide or show the ContactUs component
-export const showContactUs = true;
+<h3 align="left">Support:</h3>
+<p><a href="https://www.buymeacoffee.com/Samratrpal01"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="Samratrpal01" /></a><a href="https://ko-fi.com/Samratrpal01"> <img align="left" src="https://cdn.ko-fi.com/cdn/kofi3.png?v=3" height="50" width="210" alt="Samratrpal01" /></a></p><br><br>
 
-// See object prototype on SEO.jsx page
-export const seoData = {
-    title: "Rahul Pal",
-    description: "A passionate Full Stack Web Developer and Blockchain Developer.",
-    author: "Rahul Pal",
-    image: "https://avatars3.githubusercontent.com/u/59178380?v=4",
-    url: "https://developer-portfolio-1hanzla100.vercel.app",
-    keywords: [
-        "Rahul",
-        "Rahul Pal",
-        "@1hanzla100",
-        "1hanzla100",
-        "Portfolio",
-        "Rahul Portfolio ",
-        "Rahul Pal Portfolio",
-    ],
-}
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=samratrpal01&show_icons=true&locale=en&layout=compact" alt="samratrpal01" /></p>
+
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=samratrpal01&show_icons=true&locale=en" alt="samratrpal01" /></p>
+
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=samratrpal01&" alt="samratrpal01" /></p>
