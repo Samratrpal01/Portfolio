@@ -14,7 +14,7 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-    url: "https://1hanzla100.github.io/Samratrpal01",
+    url: "https://samratrpal01.netlify.app/",
     linkedin: "https://www.linkedin.com/in/Samratrpal01/",
     github: "https://github.com/Samratrpal01",
     instagram: "https://www.instagram.com/samrat_rpal01",
@@ -210,21 +210,30 @@ export const educationInfo = [{
         "Won many Intra College Competitive Coding Competitions",
         "Competative Leads in Binary Clud",
     ],
-}, ];
+}, {
+    schoolName: "Varanasi Public School",
+    subHeader: "XIIth (CBSE)",
+    duration: "April 2018 - April 2019",
+    grade: "77.2 %",
+    descBullets: [
+        "Won Tech Savy Price.",
+        "Top Batch Student Of in Computer Class"
+    ],
+}];
 
 export const experience = [{
-        role: "Frontend Developer",
-        company: "Duseca Software",
-        companylogo: "/img/icons/common/dusecaSoftware.jpg",
-        date: "Apr 2022 – Jun 2022",
-        desc: "I worked as frontend web developer to design web based admin dashboards for mulitple apps using Django, Bootstrap, jQuery, Chart.js and some other libraries.",
+        role: "Software Developer",
+        company: "Nagaroo",
+        companylogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG__AnJ93pWYwILWbYQgzbSeNBVfcxyQSso2hRQIs&s",
+        date: "Mar 2023 – Current",
+        desc: "I worked as Software Developer Intern, Training on Java Full Stack Developer",
     },
     {
         role: "API Engineer",
         company: "Duseca Software",
         companylogo: "/img/icons/common/dusecaSoftware.jpg",
         date: "Jan 2022 – Mar 2022",
-        desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+        desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions.",
         // descBullets: [
         // 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
         // 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -235,37 +244,40 @@ export const experience = [{
         company: "Bleed-AI",
         companylogo: "/img/icons/common/bleedAI.jpg",
         date: "Sept 2021 - Oct 2021",
-        desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
+        desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets ",
     },
     {
         role: "Backend Developer",
         company: "Wapidu",
         companylogo: "/img/icons/common/wapidu.jpg",
         date: "Sept 2021",
-        desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+        desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.",
     },
 ];
 
 export const projects = [{
         name: "developer-portfolio",
         desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-        github: "https://github.com/1hanzla100/developer-portfolio",
-        link: "https://developer-portfolio-1hanzla100.vercel.app/",
+        github: "https://github.com/Samratrpal01/Portfolio",
+        link: "https://samratrpal01.netlify.app/",
     },
     {
-        name: "AtlasMart",
-        desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-        github: "https://github.com/1hanzla100/Django-React-Marketplace",
+        name: "Join2Code",
+        desc: "Online course Providing Site, Provide Video Lecture and full Learing Plateform to Student to Learn from their own pace.",
+        github: "https://github.com/Samratrpal01/Join2Code",
+        link: "http://join2code.lovestoblog.com/home_page.php",
     },
     {
-        name: "Technota (Forum)",
-        desc: "Get hands-on experience in technical skills with Technota",
-        github: "https://github.com/1hanzla100/django-react-forum",
+        name: "To-do List",
+        desc: "Made to Manage work task,A sleek webapp created using HTML,CSS and Javascript where user can create or delete tickets according to their priority.",
+        github: "https://github.com/Samratrpal01/TodoList_Week-4",
+        link: "https://kjd91h.csb.app/",
     },
     {
-        name: "Shopaza (Ecommerce)",
-        desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-        github: "https://github.com/1hanzla100/Django-ecommerce",
+        name: "Emoji InterPreter",
+        desc: "Project Made to Analyis the Meaning of Emoji",
+        github: "https://github.com/Samratrpal01/Emoji_Interpreter",
+        link: "codesandbox.io/s/github/Samratrpal01/Emoji_Interpreter",
     },
 ];
 
