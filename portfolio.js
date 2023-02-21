@@ -183,7 +183,7 @@ export const skillsSection = {
 
 export const SkillBars = [{
         Stack: "Frontend/Design", //Insert stack or technology you have experience in
-        progressPercentage: "90", //Insert relative proficiency in percentage
+        progressPercentage: "75", //Insert relative proficiency in percentage
     },
     {
         Stack: "Backend",
@@ -191,11 +191,11 @@ export const SkillBars = [{
     },
     {
         Stack: "Programming",
-        progressPercentage: "80",
+        progressPercentage: "90",
     },
     {
         Stack: "Competative Programming",
-        progressPercentage: "75",
+        progressPercentage: "90",
     },
 
 ];
@@ -208,7 +208,7 @@ export const educationInfo = [{
     grade: "Grade A",
     descBullets: [
         "Won many Intra College Competitive Coding Competitions",
-        "Competative Leads in Binary Clud",
+        "Competative Leads in Binary Club",
     ],
 }, {
     schoolName: "Varanasi Public School",
@@ -222,7 +222,7 @@ export const educationInfo = [{
 }];
 
 export const experience = [{
-        role: "Software Developer",
+        role: "Software Developer Intern",
         company: "Nagaroo",
         companylogo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG__AnJ93pWYwILWbYQgzbSeNBVfcxyQSso2hRQIs&s",
         date: "Mar 2023 – Current",
@@ -282,11 +282,11 @@ export const projects = [{
 ];
 
 export const feedbacks = [{
-        name: "John Smith",
+        name: "Ayush Singh",
         feedback: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
     },
     {
-        name: "John Smith",
+        name: "Ram Pal",
         feedback: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
     },
 ];
